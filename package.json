@@ -1,0 +1,16 @@
+{
+  "name": "cypress-api-ss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.17.4",
+    "request": "^2.88.2"
+  }
+}

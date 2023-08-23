@@ -1,0 +1,14 @@
+stages:
+  - test
+
+cypress-tests:
+  stage: test
+  image: cypress/browsers:node18.12.0-chrome107
+  script:
+    - npm ci
+    - npm test
+  artifacts:
+    when: always
+    paths:
+      - cypress/screenshots
+      - cypress/videos
