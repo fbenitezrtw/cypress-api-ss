@@ -1,6 +1,6 @@
 # cypress-api-ss
 
-This is a test project for Symphony Solutions to automate API.
+This is a test project for SS to automate API.
 
 ## Setup
 
